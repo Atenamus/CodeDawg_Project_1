@@ -43,7 +43,15 @@ a {
 p {
   align-self: center;
 }
-@media (max-width: 840px) {
+a:hover {
+  color: #068fff;
+  text-decoration: underline;
+}
+#signup:hover {
+  background-color: #068fff;
+}
+
+@media (max-width: 1063px) {
   #grand_div {
     display: flex;
     flex-direction: column-reverse;
