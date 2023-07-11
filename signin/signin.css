@@ -43,6 +43,13 @@ a {
 p {
   align-self: center;
 }
+a:hover {
+  color: #068fff;
+  text-decoration: underline;
+}
+#signin:hover {
+  background-color: #068fff;
+}
 @media (max-width: 840px) {
   #grand_div {
     display: flex;
