@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./appointment.css" />
+  </head>
+  <body>
+    <div class="outer">
+      <div class="formbold-main-wrapper">
+        <div class="formbold-form-wrapper1">
+          <div class="formbold-mb-5">
+            <h1 style="color: white">Online Doctor Appointment Form</h1>
+          </div>
+        </div>
+      </div>
+      <div class="formbold-main-wrapper1">
+        <div class="formbold-form-wrapper">
+          <form action="https://formbold.com/s/FORM_ID" method="POST">
+            <div class="formbold-mb-5">
+              <label for="name" class="formbold-form-label"> Full Name </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Full Name"
+                class="formbold-form-input"
+              />
+            </div>
+            <div class="formbold-mb-5">
+              <label for="phone" class="formbold-form-label">
+                Phone Number
+              </label>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="Enter your phone number"
+                class="formbold-form-input"
+              />
+            </div>
+            <div class="formbold-mb-5">
+              <label for="email" class="formbold-form-label">
+                Email Address
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                class="formbold-form-input"
+              />
+            </div>
+            <div class="flex flex-wrap formbold--mx-3">
+              <div class="w-full sm:w-half formbold-px-3">
+                <div class="formbold-mb-5 w-full">
+                  <label for="date" class="formbold-form-label"> Date </label>
+                  <input
+                    type="date"
+                    name="date"
+                    id="date"
+                    class="formbold-form-input"
+                  />
+                </div>
+              </div>
+              <div class="w-full sm:w-half formbold-px-3">
+                <div class="formbold-mb-5">
+                  <label for="time" class="formbold-form-label"> Choose an appointment Time (between 8 am to 6 pm)</label>
+                  <input
+                    type="time"
+                    name="time"
+                    id="time"
+                    class="formbold-form-input"
+                    value="13:30"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="formbold-mb-5 formbold-pt-3">
+              <label class="formbold-form-label formbold-form-label-2">
+                Disease
+              </label>
+              <div class="flex flex-wrap formbold--mx-3">
+                <div class="w-full sm:w-half formbold-px-3">
+                  <div class="formbold-mb-5">
+                    <label for="cars">Select your Diseaes</label>
+                    <select id="cars" name="cars">
+                      <option value="volvo">Heart</option>
+                      <option value="saab">Bones</option>
+                      <option value="fiat">Body</option>
+                      <option value="audi">Brain</option>
+                    </select>
+                  </div>
+                  <div class="formbold-mb-5">
+                    <label for="name" class="formbold-form-label">
+                      <h3>Symptoms</h3>
+                    </label>
+                    <textarea
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Enter your symtoms"
+                      class="formbold-form-input"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <button class="formbold-btn">Book Appointment</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
