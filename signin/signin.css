@@ -60,7 +60,7 @@ a:hover {
   margin: 0% 0%;
   padding: 0% 0%;
 }
-@media (max-width: 840px) {
+@media (max-width: 1005px) {
   #grand_div {
     display: flex;
     flex-direction: column-reverse;
