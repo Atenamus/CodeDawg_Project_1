@@ -17,20 +17,22 @@ img {
 #signin_div {
   margin-top: 15%;
   display: flex;
-  gap: 5%;
+  gap: 10%;
   flex-direction: column;
   margin-left: 20%;
   font-family: "Libre Baskerville", serif;
   font-family: "Poppins", sans-serif;
 }
 input {
-  height: 10%;
+  height: 130%;
+  width: 100%;
   border-radius: 5px;
   border: 2px solid silver;
 }
 
 #signin {
-  height: 10%;
+  height: 135%;
+  width: 102%;
   border-radius: 5px;
   background-color: #35a29f;
   color: white;
@@ -50,6 +52,14 @@ a:hover {
 #signin:hover {
   background-color: #068fff;
 }
+.name_div,
+.number_div,
+.email_div,
+.password_div,
+.button_div {
+  margin: 0% 0%;
+  padding: 0% 0%;
+}
 @media (max-width: 840px) {
   #grand_div {
     display: flex;
@@ -63,6 +73,11 @@ a:hover {
     margin: auto;
   }
   input {
+    width: 80%;
     margin: 5%;
+    margin-left: 0%;
+  }
+  #signin {
+    width: 85%;
   }
 }

@@ -1,4 +1,5 @@
 #grand_div {
+  height: fit-content;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   border-radius: 20px;
@@ -17,20 +18,22 @@ img {
 #signup_div {
   margin-top: 15%;
   display: flex;
-  gap: 5%;
+  justify-content: space-between;
   flex-direction: column;
   margin-left: 20%;
   font-family: "Libre Baskerville", serif;
   font-family: "Poppins", sans-serif;
 }
 input {
-  height: 10%;
+  height: 110%;
+  width: 100%;
   border-radius: 5px;
   border: 2px solid silver;
 }
 
 #signup {
-  height: 10%;
+  height: 130%;
+  width: 102%;
   border-radius: 5px;
   background-color: #35a29f;
   color: white;
@@ -43,21 +46,13 @@ a {
 p {
   align-self: center;
 }
-a:hover {
-  color: #068fff;
-  text-decoration: underline;
-}
-#signup:hover {
-  background-color: #068fff;
-}
-
 @media (max-width: 1063px) {
   #grand_div {
     display: flex;
     flex-direction: column-reverse;
   }
   img {
-    height: 100%;
+    height: 10%;
   }
   #signup_div {
     height: fit-content;
@@ -65,5 +60,26 @@ a:hover {
   }
   input {
     margin: 5%;
+    width: 80%;
   }
+  #signup {
+    width: 85%;
+    margin-left: 5%;
+  }
+}
+a:hover {
+  color: #068fff;
+  text-decoration: underline;
+}
+#signup:hover {
+  background-color: #068fff;
+  border: 1px solid #068fff;
+}
+.name_div,
+.number_div,
+.email_div,
+.password_div,
+.button_div {
+  margin: 0% 0%;
+  padding: 0% 0%;
 }
