@@ -3,7 +3,12 @@
   border-radius: 100px;
   max-width: 70%;
 }
-
+#logout.nav-link {
+  background-color: #2afeb7;
+}
+#logout.nav-link:hover {
+  color: red;
+}
 .footer {
   text-emphasis-color: var(--dark-color);
 }

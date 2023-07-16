@@ -17,6 +17,12 @@
       "name": "Atenamus",
       "password": "123456789",
       "id": 3
+    },
+    {
+      "email": "abhijeetdas2040@gmail.com",
+      "name": "Abhijeet Das",
+      "password": "abhijeet",
+      "id": 4
     }
   ],
   "appointment": []
