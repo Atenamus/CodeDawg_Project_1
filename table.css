@@ -1,0 +1,11 @@
+.pp {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+  }
