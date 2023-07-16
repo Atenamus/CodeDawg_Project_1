@@ -51,12 +51,15 @@
               <li class="nav-item">
                 <a href="#contact" class="nav-link">Contact</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id="signin">
                 <a href="signin/signin.html" class="nav-link">Signin</a>
               </li>
-              <li class="nav-item">
-                <a href="signup/singup.html" class="nav-link">Signup</a>
-              </li>
+              <li class="nav-item" id="signup">
+               <a href="signup/singup.html" class="nav-link">Signup</a>
+              </li> 
+              <li class="nav-item" id="user">
+                <button id="logout" class="nav-link">Logout</button>
+               </li> 
             </ul>
           </div>
         </div>
@@ -77,7 +80,6 @@
             </p>
             <div class="btn-group">
               <a href="#" class="btn btn-white">Make Appointment</a>
-              <a href="#" class="btn btn-light-blue">Sign In</a>
             </div>
           </div>
           <div class="header-inner-right">
@@ -570,9 +572,7 @@
         </div>
       </div>
     </footer>
-    <!-- end of footer  -->
-
-    <!-- custom js -->
-    <script src="script.js"></script>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="index.js"></script>
 </html>

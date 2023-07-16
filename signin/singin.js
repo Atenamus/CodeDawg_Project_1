@@ -13,28 +13,13 @@ button.addEventListener("click", () => {
       if (comparison != null) {
         localStorage.setItem("token", JSON.stringify(Date.now()));
         localStorage.setItem("id", JSON.stringify(comparison.id));
-        const Toast = Swal.mixin({
-            toast: true,
-            position: 'top-end',
-            showConfirmButton: false,
-            timer: 3000,
-            timerProgressBar: true,
-            didOpen: (toast) => {
-              toast.addEventListener('mouseenter', Swal.stopTimer)
-              toast.addEventListener('mouseleave', Swal.resumeTimer)
-            }
-          })
-          Toast.fire({
-            icon: 'success',
-            title: 'Signed in successfully'
-          })
         window.location.href = "../index.html";
       } else {
         swal.fire({
-            title: "Error!",
-            text: "Invalid Credentials",
-            icon: "error",
-          });
+          title: "Error!",
+          text: "Invalid Credentials",
+          icon: "error",
+        });
       }
     });
 });

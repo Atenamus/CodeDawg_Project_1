@@ -11,6 +11,12 @@
       "name": "lalith",
       "password": "lalith@1234",
       "id": 2
+    },
+    {
+      "email": "qwert@gmail.com",
+      "name": "Atenamus",
+      "password": "123456789",
+      "id": 3
     }
   ],
   "appointment": []
