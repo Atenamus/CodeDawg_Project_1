@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-y: hidden;
+}
+#grand_div {
+  display: flex;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  width: 60%;
+  margin: 7% 10% 10% 23%;
+}
+.image {
+  width: 50%;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+#signin_div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3.5%;
+  align-items: center;
+}
+input {
+  height: 130%;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid silver;
+}
+header {
+  font-size: 245%;
+  font-weight: 600;
+  color: black;
+}
+.input_field {
+  margin-top: 4.5%;
+  height: 45px;
+  width: 100%;
+}
+.input_field input {
+  height: 100%;
+  width: 100%;
+  padding: 0 15px;
+  border: 1px solid rgba(10, 10, 10, 0.479);
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 300;
+}
+.input_field input:focus {
+  border: none;
+}
+.input_field input:focus {
+  transition: 0.7s;
+  outline: none !important;
+  border: 1px solid rgb(150, 148, 148);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.link {
+  margin-top: 9px;
+  text-align: center;
+}
+.link a:link {
+  text-decoration: none;
+  color: rgb(90, 90, 238);
+}
+.link a:hover {
+  color: rgb(1, 1, 201);
+}
+.input_field button {
+  background-color: #24ba9f;
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 9px;
+  border-radius: 6px;
+  transition: 0.7s;
+}
+.input_field button:hover {
+  background-color: #43ccb3;
+}
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+  #grand_div {
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 80%;
+    margin: 10% auto;
+  }
+  .image {
+    display: none;
+    width: 0%;
+  }
+  #signin_div {
+    padding: 3.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  #grand_div {
+    display: flex;
+    border-radius: 20px;
+    box-shadow: none;
+    margin: 10% auto;
+  }
+}
