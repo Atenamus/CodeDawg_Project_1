@@ -187,6 +187,15 @@
         "price": "3500"
       },
       "id": 5
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 6
     }
   ]
 }
