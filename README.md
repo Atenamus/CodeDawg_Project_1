@@ -14,7 +14,9 @@ This project is a doctor appointment management system built using HTML, CSS, Ja
 • JavaScript
 • JSON Server
 • Screenshots 
-
+![WhatsApp Image 2023-07-17 at 09 55 23](https://github.com/Atenamus/CodeDawg_Project_1/assets/138751641/31d42bc2-6052-44dd-885e-cbfcadc37d34)
+![Uploading WhatsApp Image 2023-07-17 at 09.56.16.jpg…]()
+![WhatsApp Image 2023-07-17 at 09 56 38](https://github.com/Atenamus/CodeDawg_Project_1/assets/138751641/dabb1258-1a44-42d4-9102-5ea4478e5b91)
 
 
  ## Screenshots
@@ -42,10 +44,10 @@ npm install
 4. Open the index.html file in your web browser
 ## Project Structure
 1. signup.html : Landing page with login and signup forms
-2. index.html : Home page 
-3. xxxxx.html : Appointment details page.
-4. css/ : Directory containing CSS stylesheets
-5. js/ : Directory containing JavaScript files for different functionalities.
-6. settings.json: JSON database file containing user information  and appointment details
-7. screenshots/ : Directory for storing project screenshots
+2. index.html : Home page
+4. xxxxx.html : Appointment details page.
+5. css/ : Directory containing CSS stylesheets
+6. js/ : Directory containing JavaScript files for different functionalities.
+7. settings.json: JSON database file containing user information  and appointment details
+8. screenshots/ : Directory for storing project screenshots
 
