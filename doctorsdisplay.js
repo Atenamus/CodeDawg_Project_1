@@ -16,7 +16,7 @@ function populateDoctorsTable(doctors) {
         if (event.target.classList.contains("book-button")) {
           const doctorId = event.target.dataset.doctorId;
           try {
-            const response = await fetch(`http://localhost:3000/doctors/${doctorId}`);
+            const response = await fetch(`http://localhost:8080/doctors/${doctorId}`);
             const doctor = await response.json();
       
             if (true) {
@@ -25,7 +25,7 @@ function populateDoctorsTable(doctors) {
                 doctor
               };
       
-              const bookingResponse = await fetch("http://localhost:3000/bookings", {
+              const bookingResponse = await fetch("http://localhost:8080/bookings", {
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json",
@@ -34,7 +34,7 @@ function populateDoctorsTable(doctors) {
               });
       
               if (bookingResponse.ok) {
-                alert("Booking Successful");
+                window.location.href="apptable.html"
              
               } else {
                 alert("Booking failed");
