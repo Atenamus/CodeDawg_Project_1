@@ -44,10 +44,10 @@ npm install
  json-server --settings.json
 4. Open the index.html file in your web browser
 ## Project Structure
-• signup.html : Landing page with login and signup forms
-• index.html : Home page 
-• xxxxx.html : Appointment details page.
-• css/ : Directory containing CSS stylesheets
-• js/ : Directory containing JavaScript files for different functionalities.
-• settings.json: JSON database file containing user information  and appointment details
-• screenshots/ : Directory for storing project screenshots
+1. signup.html : Landing page with login and signup forms
+2. index.html : Home page 
+3. xxxxx.html : Appointment details page.
+4. css/ : Directory containing CSS stylesheets
+5. js/ : Directory containing JavaScript files for different functionalities.
+6. settings.json: JSON database file containing user information  and appointment details
+7. screenshots/ : Directory for storing project screenshots
