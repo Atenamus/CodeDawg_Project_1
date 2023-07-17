@@ -1,0 +1,16 @@
+{
+  "name": "codedawg_project_1",
+  "version": "1.0.0",
+  "description": "Mean_Mern project 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch data.json --port 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

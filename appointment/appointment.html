@@ -1,0 +1,139 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./appointment.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lunasima&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="outer">
+      <div class="formbold-main-wrapper">
+        <div class="formbold-form-wrapper1">
+          <div class="formbold-mb-5">
+            <b><h1>Online Doctor Appointment Form</h1></b>
+          </div>
+        </div>
+      </div>
+      <div class="formbold-main-wrapper1">
+        <div class="formbold-form-wrapper">
+          <form id="form" action="/">
+            <div class="formbold-mb-5">
+              <label for="name" class="formbold-form-label"> Full Name </label>
+              <input
+                type="text"
+                name="name"
+                id="name1"
+                placeholder="Full Name"
+                class="formbold-form-input"
+              />
+              <div class="error"></div>
+            </div>
+            <div class="formbold-mb-5">
+              <label for="phone" class="formbold-form-label">
+                Phone Number
+              </label>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="Enter your phone number"
+                class="formbold-form-input"
+              />
+              <div class="error"></div>
+            </div>
+            <div class="formbold-mb-5">
+              <label for="email" class="formbold-form-label">
+                Email Address
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                class="formbold-form-input"
+              />
+              <div class="error"></div>
+            </div>
+            <div class="flex flex-wrap formbold--mx-3">
+              <div class="w-full sm:w-half formbold-px-3">
+                <div class="formbold-mb-5 w-full">
+                  <label for="date" class="formbold-form-label"> Date </label>
+                  <input
+                    type="date"
+                    name="date"
+                    id="date"
+                    min="today"
+                    class="formbold-form-input"
+                  />
+                  <div class="error"></div>
+                </div>
+              </div>
+              <div class="w-full sm:w-half formbold-px-3">
+                <div class="formbold-mb-5">
+                  <label for="time" class="formbold-form-label">
+                    Time</label
+                  >
+                  <input
+                    type="time"
+                    name="time"
+                    id="time"
+                    class="formbold-form-input"
+                    value="13:30"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="formbold-mb-5 formbold-pt-3">
+              <label class="formbold-form-label formbold-form-label-2">
+                Disease
+              </label>
+              <div class="flex flex-wrap formbold--mx-3">
+                <div class="w-full sm:w-half formbold-px-3">
+                  <div class="formbold-mb-5">
+                    <label for="disease">Select your Disease</label>
+                    <select
+                      id="disease"
+                      name="cars"
+                      class="formbold-form-input"
+                    >
+                      <option value="Heart">Heart</option>
+                      <option value="Bones">Bones</option>
+                      <option value="Body">Body</option>
+                      <option value="Brain">Brain</option>
+                    </select>
+                  </div>
+                  <div class="formbold-mb-5">
+                    <label for="name" class="formbold-form-label">
+                      <h3>Symptoms</h3>
+                    </label>
+                    <textarea
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Enter your symtoms"
+                      class="formbold-form-input"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <button class="formbold-btn" id="app" type="submit">
+                Book Appointment
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./appointment1.js"></script>
+</html>
