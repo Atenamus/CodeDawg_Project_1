@@ -58,19 +58,25 @@ async function searchdoctors(event) {
     const email = document.getElementById('email');
     const date = document.getElementById('date');
     const disease = document.getElementById('disease');
+    const time = document.getElementById('time');
 
-    const pname = name1.value;
+    const pname = name.value;
     const ph = phone.value;
     const dt = date.value;
     const showdisease = disease.value;
+    const pemail = email.value;
+    const tme = time.value;
 
-    const url = `http://localhost:3000/doctors?specialization=${showdisease}`;
+    const url = `http://localhost:8080/doctors?specialization=${showdisease}`;
     try {
         const response = await fetch(url);
         const data = await response.json();
-        console.log(data);
         if (data.length > 0) {
+            localStorage.setItem("Name", pname);
+            localStorage.setItem("Phone", ph);
+            localStorage.setItem("Date", dt);
             localStorage.setItem("doctors", JSON.stringify(data));
+            localStorage.setItem("Time", tme);
             window.location.href="doctors.html";
         } else {
             alert("No doctors found");
