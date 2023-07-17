@@ -71,6 +71,8 @@ async function searchdoctors(event) {
     console.log(data);
     if (data.length > 0) {
       localStorage.setItem("doctors", JSON.stringify(data));
+      localStorage.setItem("name",pname);
+      localStorage.setItem("date",dt);
       window.location.href = "doctors.html";
     } else {
       alert("No doctors found");

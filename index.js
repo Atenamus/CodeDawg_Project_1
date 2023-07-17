@@ -7,7 +7,7 @@ const signin = document.getElementById("signin");
 const signup = document.getElementById("signup");
 const user = document.getElementById("user");
 const appointment = document.getElementById("appoint");
-const makeappoint=document.getElementById("makeappoint");
+const makeappoint = document.getElementById("makeappoint");
 const logout = document.getElementById("logout");
 if (token != null) {
   const Toast = Swal.mixin({
@@ -24,13 +24,11 @@ if (token != null) {
   signin.style.display = "none";
   signup.style.display = "none";
   user.style.display = "block";
-  appointment.style.display = "block";
   makeappoint.style.display = "block";
 } else {
   user.style.display = "none";
   signin.style.display = "block";
   signup.style.display = "block";
-  appointment.style.display = "none";
   makeappoint.style.display = "none";
 }
 logout.addEventListener("click", () => {
@@ -39,7 +37,7 @@ logout.addEventListener("click", () => {
   user.style.display = "none";
   signin.style.display = "block";
   signup.style.display = "block";
-  window.location.href="index.html";
+  window.location.href = "index.html";
 });
 navbarShowBtn.addEventListener("click", function () {
   navbarCollapseDiv.classList.add("navbar-show");
