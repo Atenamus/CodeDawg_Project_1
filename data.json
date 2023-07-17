@@ -19,7 +19,188 @@
       "id": 4
     }
   ],
-  "appointment": [],
+  "bookings": [
+    {
+      "doctor": {
+        "id": 6,
+        "name": "Dr. Robert Smith",
+        "specialization": "Body",
+        "price": "2500"
+      },
+      "id": 1
+    },
+    {
+      "doctor": {
+        "id": 14,
+        "name": "Dr. Olivia Brown",
+        "specialization": "Body",
+        "price": "2500"
+      },
+      "id": 2
+    },
+    {
+      "doctor": {
+        "id": 4,
+        "name": "Dr. Michael Wang",
+        "specialization": "Bones",
+        "price": "2500"
+      },
+      "id": 3
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 4
+    },
+    {
+      "doctor": {
+        "id": 7,
+        "name": "Dr. John Smith",
+        "specialization": "Heart",
+        "price": "3500"
+      },
+      "id": 5
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 6
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 7
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 8
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 9
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 10
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 11
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 12
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 13
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 14
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 15
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 16
+    },
+    {
+      "doctor": {
+        "id": 7,
+        "name": "Dr. John Smith",
+        "specialization": "Heart",
+        "price": "3500"
+      },
+      "id": 17
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 18
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 19
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 20
+    }
+  ],
   "doctors": [
     {
       "id": 1,
@@ -140,62 +321,6 @@
       "name": "Dr. Mia Clark",
       "specialization": "Bones",
       "price": "2500"
-    }
-  ],
-  "bookings": [
-    {
-      "doctor": {
-        "id": 6,
-        "name": "Dr. Robert Smith",
-        "specialization": "Body",
-        "price": "2500"
-      },
-      "id": 1
-    },
-    {
-      "doctor": {
-        "id": 14,
-        "name": "Dr. Olivia Brown",
-        "specialization": "Body",
-        "price": "2500"
-      },
-      "id": 2
-    },
-    {
-      "doctor": {
-        "id": 4,
-        "name": "Dr. Michael Wang",
-        "specialization": "Bones",
-        "price": "2500"
-      },
-      "id": 3
-    },
-    {
-      "doctor": {
-        "id": 1,
-        "name": "Dr. John Doe",
-        "specialization": "Heart",
-        "price": "2500"
-      },
-      "id": 4
-    },
-    {
-      "doctor": {
-        "id": 7,
-        "name": "Dr. John Smith",
-        "specialization": "Heart",
-        "price": "3500"
-      },
-      "id": 5
-    },
-    {
-      "doctor": {
-        "id": 1,
-        "name": "Dr. John Doe",
-        "specialization": "Heart",
-        "price": "2500"
-      },
-      "id": 6
     }
   ]
 }
