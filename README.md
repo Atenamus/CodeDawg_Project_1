@@ -15,7 +15,7 @@ This project is a doctor appointment management system built using HTML, CSS, Ja
 • JSON Server
 • Screenshots 
 ![WhatsApp Image 2023-07-17 at 09 55 23](https://github.com/Atenamus/CodeDawg_Project_1/assets/138751641/31d42bc2-6052-44dd-885e-cbfcadc37d34)
-![Uploading WhatsApp Image 2023-07-17 at 09.56.16.jpg…]()
+![WhatsApp Image 2023-07-17 at 09 30 50](https://github.com/Atenamus/CodeDawg_Project_1/assets/138751641/987b05a1-6e3d-47e9-81a4-db4e8b49763d)
 ![WhatsApp Image 2023-07-17 at 09 56 38](https://github.com/Atenamus/CodeDawg_Project_1/assets/138751641/dabb1258-1a44-42d4-9102-5ea4478e5b91)
 
 
