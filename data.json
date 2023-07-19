@@ -13,17 +13,314 @@
       "id": 2
     },
     {
-      "email": "qwert@gmail.com",
-      "name": "Atenamus",
-      "password": "123456789",
-      "id": 3
-    },
-    {
       "email": "abhijeetdas2040@gmail.com",
       "name": "Abhijeet Das",
       "password": "abhijeet",
       "id": 4
     }
   ],
-  "appointment": []
+  "bookings": [
+    {
+      "doctor": {
+        "id": 6,
+        "name": "Dr. Robert Smith",
+        "specialization": "Body",
+        "price": "2500"
+      },
+      "id": 1
+    },
+    {
+      "doctor": {
+        "id": 14,
+        "name": "Dr. Olivia Brown",
+        "specialization": "Body",
+        "price": "2500"
+      },
+      "id": 2
+    },
+    {
+      "doctor": {
+        "id": 4,
+        "name": "Dr. Michael Wang",
+        "specialization": "Bones",
+        "price": "2500"
+      },
+      "id": 3
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 4
+    },
+    {
+      "doctor": {
+        "id": 7,
+        "name": "Dr. John Smith",
+        "specialization": "Heart",
+        "price": "3500"
+      },
+      "id": 5
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 6
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 7
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 8
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 9
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 10
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 11
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 12
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 13
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 14
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 15
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 16
+    },
+    {
+      "doctor": {
+        "id": 7,
+        "name": "Dr. John Smith",
+        "specialization": "Heart",
+        "price": "3500"
+      },
+      "id": 17
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 18
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 19
+    },
+    {
+      "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "specialization": "Heart",
+        "price": "2500"
+      },
+      "id": 20
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. John Doe",
+      "specialization": "Heart",
+      "price": "2500"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Jane Smith",
+      "specialization": "Brain",
+      "price": "2500"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Sarah Lee",
+      "specialization": "Body",
+      "price": "2500"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Michael Wang",
+      "specialization": "Bones",
+      "price": "2500"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Emily Johnson",
+      "specialization": "brain",
+      "price": "3500"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Robert Smith",
+      "specialization": "body",
+      "price": "2500"
+    },
+    {
+      "id": 7,
+      "name": "Dr. John Smith",
+      "specialization": "Heart",
+      "price": "3500"
+    },
+    {
+      "id": 8,
+      "name": "Dr. Sarah Johnson",
+      "specialization": "Bones",
+      "price": "2500"
+    },
+    {
+      "id": 9,
+      "name": "Dr. Michael Lee",
+      "specialization": "Brain",
+      "price": "3500"
+    },
+    {
+      "id": 10,
+      "name": "Dr. Emily Williams",
+      "specialization": "Body",
+      "price": "2500"
+    },
+    {
+      "id": 11,
+      "name": "Dr. Robert Davis",
+      "specialization": "Heart",
+      "price": "3500"
+    },
+    {
+      "id": 12,
+      "name": "Dr. Jessica Wilson",
+      "specialization": "Bones",
+      "price": "2500"
+    },
+    {
+      "id": 13,
+      "name": "Dr. William Adams",
+      "specialization": "Brain",
+      "price": "3500"
+    },
+    {
+      "id": 14,
+      "name": "Dr. Olivia Brown",
+      "specialization": "Body",
+      "price": "2500"
+    },
+    {
+      "id": 15,
+      "name": "Dr. Ethan Miller",
+      "specialization": "Heart",
+      "price": "3500"
+    },
+    {
+      "id": 16,
+      "name": "Dr. Sophia Martin",
+      "specialization": "Bones",
+      "price": "2500"
+    },
+    {
+      "id": 17,
+      "name": "Dr. James Anderson",
+      "specialization": "Brain",
+      "price": "3500"
+    },
+    {
+      "id": 18,
+      "name": "Dr. Lily Walker",
+      "specialization": "Body",
+      "price": "2500"
+    },
+    {
+      "id": 19,
+      "name": "Dr. Benjamin Turner",
+      "specialization": "Heart",
+      "price": "3500"
+    },
+    {
+      "id": 20,
+      "name": "Dr. Mia Clark",
+      "specialization": "Bones",
+      "price": "2500"
+    }
+  ]
 }
